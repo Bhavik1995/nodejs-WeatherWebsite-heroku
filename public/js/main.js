@@ -32,10 +32,13 @@ const getInfo = async(event)=>{
                 temp_status.innerHTML = "<i class='fas fa-sun' style='color: #eccc68;'></i>";
             }
             else if(tempMood == "Clouds"){
-                temp_status.innerHTML = "<i class='fas fa-cloud' style='color: #dfe4ea;'></i>";
+                temp_status.innerHTML = "<i class='fas fa-snowflake' style='color: #dfe4ea;'></i>";
             }
             else if(tempMood == "Rain"){
                 temp_status.innerHTML = "<i class='fas fa-cloud-rain' style='color: #a4b0be;'></i>";
+            }
+            else if(tempMood == "Fog"){
+                temp_status.innerHTML = "<i class='fas fa-smog' style='color: #dfe4ea;'></i>";
             }
             else{
                 temp_status.innerHTML = "<i class='fas fa-sun' style='color: #eccc68;'></i>";

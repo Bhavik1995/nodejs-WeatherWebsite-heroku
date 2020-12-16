@@ -53,7 +53,7 @@ body{
 }
 .fa-snowflake{
     transition: all linear;
-    animation: rot 2s linear infinite;
+    /*animation: rot 2s linear infinite;*/
     color: var(--main-color);
 }
 
@@ -238,7 +238,7 @@ body{
 footer{
     width: 100%;
     background-color: var(--main-bg);
-    margin: top auto;
+    margin-top: auto;
 }
 
 footer p{
